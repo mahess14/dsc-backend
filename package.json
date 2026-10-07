@@ -1,0 +1,16 @@
+{
+  "name": "dsc-ledger-backend",
+  "version": "1.0.0",
+  "description": "DSC token ledger API: products, stock purchases, sales and profit",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node db/seed.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "sql.js": "^1.11.0"
+  }
+}
